@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function calculerIMC() {
     // Récupérer les valeurs de poids et taille
     let poids = parseFloat(document.getElementById("poids").value);
@@ -26,7 +26,7 @@ function calculerIMC() {
     let resultatDiv = document.getElementById("resultat");
     resultatDiv.innerHTML = "Votre IMC est : " + imc.toFixed(2) + ". Vous êtes en catégorie " + msg + ".";
 }
-=======
+
 function calculerIMC() {
     // Récupérer les valeurs de poids et taille
     let poids = parseFloat(document.getElementById("poids").value);
@@ -54,4 +54,4 @@ function calculerIMC() {
     let resultatDiv = document.getElementById("resultat");
     resultatDiv.innerHTML = "Votre IMC est : " + imc.toFixed(2) + ". Vous êtes en catégorie " + msg + ".";
 }
->>>>>>> a14d1e53e52be88bfe780cd6080c6ab6e1d14682
+
