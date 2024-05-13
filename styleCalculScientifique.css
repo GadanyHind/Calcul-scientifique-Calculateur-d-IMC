@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Reset des marges et des paddings */
 * {
     margin: 0;
@@ -125,7 +125,7 @@ nav ul li a:hover {
       box-shadow: inset 5px 5px 8px #e60073,
                   inset -5px -5px 8px #ff3399;
 }
-=======
+
 body 
 {
     padding: 0;
@@ -230,4 +230,3 @@ body
       box-shadow: inset 5px 5px 8px #e60073,
                   inset -5px -5px 8px #ff3399;
 }
->>>>>>> a14d1e53e52be88bfe780cd6080c6ab6e1d14682
