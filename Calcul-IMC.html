@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="calculIMC.css">
 </head>
 <body>
+    <nav>
+        <ul id="menu">
+            <li><a href="permutation.html">Permutation</a></li>
+            <li><a href="calcul-scientifique.html">Calculatrice Avancée</a></li>
+            <li><a href="Calcul-IMC.html">Calculateur d'IMC</a></li>
+            <li><a href="Calcul-simple.html">Calculatrice Simple</a></li>
+        </ul>
+    </nav>
     <h3>Calculateur d'IMC</h3>
     <form>
-        <label for="poids">Poids (kg) :</label>
+        <label for="poids">Poids (kg) </label>
         <input type="number" id="poids" required placeholder="Poids en Kg"><br><br>
-        <label for="taille">Taille (m) :</label>
+        <label for="taille">Taille (m) </label>
         <input type="number" id="taille" required step="0.01" placeholder="Taille en m"><br><br>
         <button type="button" onclick="calculerIMC()">Calculer IMC</button>
     </form>

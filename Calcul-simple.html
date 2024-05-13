@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice-Simple</title>
+    <link rel="stylesheet" href="calcul-simple.css">
+    
+</head> 
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a href="permutation.html">Permutation</a></li>
+            <li><a href="calcul-scientifique.html">Calculatrice Avancée</a></li>
+            <li><a href="Calcul-IMC.html">Calculateur d'IMC</a></li>
+            <li><a href="Calcul-simple.html">Calculatrice Simple</a></li>
+        </ul>
+    </nav>
+<h2>Calculatrice-Simple</h2>
+<form action="">
+    <label for="poids">Valeur 1 </label>
+    <input type="number" id="val1" required><br><br>
+    <label for="poids">Valeur 2 </label>
+    <input type="number" id="val2"  required><br><br>
+    <button type="button" onclick="somme()">+</button> <button type="button"  onclick="soustraction()">-</button> <button type="button" onclick="multiplication()">*</button> <button type="button" onclick="divisionx()">/</button><br><br>
+    <label for="poids">Resultat </label>
+    <input type="number" id="resultat" >
+
+</form>
+<script src="calcul-simple.js"></script>
+       
+</body>   
+</html>
