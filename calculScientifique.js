@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 var screen=document.querySelector('#screen');
     var btn=document.querySelectorAll('.btn');
 
-    /*============ For getting the value of btn, Here we use for loop ============*/
     for(item of btn)
     {
         item.addEventListener('click',(e)=>{
@@ -79,11 +78,11 @@ var screen=document.querySelector('#screen');
     function backspc()
     {
         screen.value=screen.value.substr(0,screen.value.length-1);
-=======
+
 var screen=document.querySelector('#screen');
     var btn=document.querySelectorAll('.btn');
 
-    /*============ For getting the value of btn, Here we use for loop ============*/
+ 
     for(item of btn)
     {
         item.addEventListener('click',(e)=>{
@@ -160,5 +159,5 @@ var screen=document.querySelector('#screen');
     function backspc()
     {
         screen.value=screen.value.substr(0,screen.value.length-1);
->>>>>>> a14d1e53e52be88bfe780cd6080c6ab6e1d14682
+
     }
